@@ -8,6 +8,12 @@
 a {text-decoration: none;}
 ul {list-style: none;}
 body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
     background: var(--background-color);
 }
 .visually-hidden {
@@ -68,12 +74,6 @@ body {
     margin-right: 50px;
 }
 .nav-menu a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 .nav-menu :hover,
@@ -91,12 +91,6 @@ body {
     margin-right: 50px;
 }
 .header-contacts a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 .header-contacts :hover,
