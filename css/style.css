@@ -20,10 +20,7 @@ body {
     width: 1px !important;
     overflow: hidden;
 }
-.h-reset {
-    margin: 0;
-    padding: 0;
-}
+
 .container {
     width: 1170px;
     margin-left: auto;
@@ -252,6 +249,10 @@ body {
     padding: 0;
 }
 .our-team-list h3 {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -261,6 +262,11 @@ body {
     letter-spacing: 0.03em;
 }
 .our-team-list p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
