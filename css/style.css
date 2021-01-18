@@ -233,11 +233,11 @@ img {
     margin: 0;
    
 }
+.our-team-list-item-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .our-team-list h3 {
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -248,10 +248,7 @@ img {
 }
 .our-team-list p {
     margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
+    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -336,6 +333,7 @@ img {
 .filter-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .filter-list-item:not(:last-child) {
     margin-right: 8px;
@@ -343,7 +341,7 @@ img {
 .filter-button {
     width: fit-content;
     height: 38px;
-    margin-bottom: 50px;
+    
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -393,11 +391,15 @@ img {
 .work-examples-item:nth-last-child(-n + 3) {
     margin-bottom: 0;
 }
-.work-examples h2 {
+.work-examples-item-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 20px;
-
+}
+.work-examples h2 {
+    margin-bottom: 4px;
+    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -407,11 +409,7 @@ img {
     color: var(--text-color);
 }
 .work-examples p {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 4px;
-    padding-bottom: 20px;
-
+    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
