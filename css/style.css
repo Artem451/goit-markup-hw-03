@@ -227,6 +227,8 @@ img {
 }
 .rep-list {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 .rep-list-item:not(:last-child) {
     margin-right: 30px;
@@ -327,11 +329,12 @@ img {
     color: var(--background-color);
 }
 .footer-list {
-    margin: 0;
     padding: 0;
-}
-.footer-list-item {
+    margin: 0;
     margin-top: 9px;
+}
+.footer-list :not(:last-child) {
+    margin-bottom: 9px;
 }
 .footer-contacts {
     font-family: 'Roboto', sans-serif;
